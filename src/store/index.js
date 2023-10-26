@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import heroes from '../components/heroesList/heroesSlice';
 import filters from '../components/heroesFilters/filtersSlice';
 
-const stringMiddleware = (store) => (next) => (action) => {
+const stringMiddleware = () => (next) => (action) => {
     if (typeof action === 'string') {
         return next({
             type: action
