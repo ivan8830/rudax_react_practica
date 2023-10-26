@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk, createEntityAdapter, createSelector } from "@reduxjs/toolkit";
+/* import { createSlice, createAsyncThunk, createEntityAdapter, createSelector } from "@reduxjs/toolkit";
 import {useHttp} from '../../hooks/http.hook';
 
 const heroesAdapter = createEntityAdapter(); // тут тоже мы можем добавлять
@@ -77,4 +77,4 @@ export const {
     heroesFetchingError,
     heroCreated,
     heroDeleted
-} = actions;
+} = actions; */
